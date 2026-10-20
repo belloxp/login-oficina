@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eef0f2;
+    color: #2b2f33;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+header{
+    background-color: #2b2f33;
+    padding: 12px 16px;
+}
+
+header > br, header > hr{
+    display: none;
+}
+
+nav{
+    text-align: center;
+    line-height: 2;
+}
+
+nav hr{
+    border: none;
+    border-top: 1px solid #44494f;
+    margin: 4px 0;
+}
+
+nav br{
+    display: none;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #e6e6e6;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+nav a:hover{
+    background-color: #f28c28;
+    color: #1e1e1e;
+}
+
+.titulo_menu{
+    color: #f28c28;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main{
+    max-width: 900px;
+    margin: 32px auto;
+    padding: 0 16px;
+    text-align: center;
+}
+
+h1{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #5a6067;
+}
+
+form{
+    background-color: white;
+    border: 1px solid #d5d9dd;
+    border-radius: 6px;
+    padding: 24px;
+    max-width: 380px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label{
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+input, select{
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 1px solid #b8bec4;
+    border-radius: 4px;
+    background-color: white;
+    color: #2b2f33;
+}
+
+input:focus, select:focus{
+    outline: none;
+    border-color: #f28c28;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #2b2f33;
+    color: white;
+}
+
+button:hover{
+    background-color: #f28c28;
+    color: #1e1e1e;
+}
+
+main > button{
+    width: auto;
+    padding: 10px 24px;
+}
+
+.resposta, .resposta_nome{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 0.95rem;
+}
+
+th{
+    background-color: #2b2f33;
+    color: white;
+}
+
+th, td{
+    border: 1px solid #d5d9dd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f6f7f8;
+}
